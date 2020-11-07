@@ -1,0 +1,24 @@
+Page Object Model (POM) & Page Factory
+=============================================================
+For each webage in the application we will create seperate class
+Advantages
+	- Page Object Pattern says operation and flows in the UI should be separated from verification(test case)
+	- Object repository is independent 
+	- Code becomes less and optimized because of the reusable page method
+
+
+Naukri.com
+=======================
+Design the framework (TestNG, Maven, DataDriven, POM(page object model)) to automate the login page and profile update page 
+	- login page
+			-there should two test cases
+				i. for invalid login
+				ii. for valid login
+
+	- profile page
+			- write four test case
+				i. update personal details 
+				ii. update employeement 
+				iii. update qualification 
+
+	

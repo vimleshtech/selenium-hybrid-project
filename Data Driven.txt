@@ -1,0 +1,42 @@
+Topics
+==========
+Maven			: is configuration and build management tool
+			:
+			 Group ID   : set of application just like solution 
+			 Artifect ID: is application name 
+
+			 pom.xml: configuration(project name, version) and dependency (.jar or .war file)
+			 Project Structure
+				src   : source code 
+				test  : test script
+				target: output folder
+			
+			Maven life cycle:
+				validate  -> clean ->  compile  -> test  -> package  -> install
+					     clear- remove previous bild or unrequired files
+					     compile - code compilation 
+					     test - test script execution 
+					     package - create a build (.jar,.war file)							
+			
+							
+
+Key Driven
+			- create .properties file to keep all web element id,name,path etc.
+			- we will manage one file for all web elements 
+			
+				
+			
+
+Data Driven 
+			- We should cetral repository(file or database) to store all test case or scenario related data 
+			Example:
+				Excel Workbook: we will keep all data in excel workbook
+				
+			Example code:
+				Import/add aphace poi file 
+			
+					
+POM(Page Object Model)
+Hybrid Framework
+Grid
+
